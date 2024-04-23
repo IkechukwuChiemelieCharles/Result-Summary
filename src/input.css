@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.circle {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+.reaction {
+  background-color: hsla(0, 59%, 73%, 0.148);
+}
+.reaction h2 {
+  color: hsl(0, 100%, 67%);
+}
+.memory {
+  background-color: hsla(39, 61%, 69%, 0.16);
+}
+
+.memory h2 {
+  color: hsl(39, 100%, 56%);
+}
+.verbal {
+  background-color: hsla(167, 44%, 81%, 0.281);
+}
+.verbal h2 {
+  color: hsl(166, 100%, 37%);
+}
+.visual {
+  background-color: hsla(234, 74%, 61%, 0.151);
+}
+.visual h2 {
+  color: hsl(234, 85%, 45%);
+}
+.continue {
+  background-color: hsl(224, 30%, 27%);
+}
+.continue:hover {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
